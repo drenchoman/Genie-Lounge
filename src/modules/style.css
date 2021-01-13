@@ -226,7 +226,7 @@ flex-direction: column;
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1300px) {
   #home > p {
     font-size: 1.5em;
   }
@@ -267,10 +267,6 @@ flex-direction: column;
 }
 .contactImage{
   width: 40vw;
-  padding-left: 5%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-right: 0px;
 }
 .contactTxt {
   padding-left: 2.5%;
