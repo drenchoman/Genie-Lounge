@@ -12,3 +12,6 @@
 
 ## License
 This project is licensed under the MIT License
+
+## Linkedin
+[Let's Connect](https://www.linkedin.com/in/oscar-harron-87228a164/)
