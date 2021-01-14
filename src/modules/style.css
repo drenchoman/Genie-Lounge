@@ -230,13 +230,13 @@ flex-direction: column;
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1480px) {
   #home > p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   #flavours > p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   #findUs > p {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .navLogo {
     height: 60px;
@@ -247,12 +247,15 @@ flex-direction: column;
   }
   .heroImage > img {
     width: 30vw;
+    min-width: 500px;
 }
 .main {
   height: 80vh;
 }
 .sub {
-  /* padding-top: 1%; */
+  justify-content: space-around;
+  height: 30vh;
+  padding-top: 2%
 }
 .sub > h2 {
   font-size: 2.5em;
@@ -280,18 +283,19 @@ flex-direction: column;
 }
 .contactImage{
   width: 30vw;
+  min-width: 500px;
 }
 .contactTxt {
   padding-left: 5%;
   padding-right: 2.5%;
 }
 .contactTxt >h2 {
-  font-size: 2em;
+  font-size: 3.5em;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .contactTxt > p {
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 }
 
