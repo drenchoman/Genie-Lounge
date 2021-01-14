@@ -461,39 +461,75 @@ flex-direction: column;
   .heroImage{
     display: none;
   }
+  #home > p {
+    font-size: 1em;
+  }
+  #flavours > p {
+    font-size: 1em;
+  }
+  #findUs > p {
+    font-size: 1em;
+  }
+  .navLogo {
+    height: 40px;
+    width: 40px;
+  }
   .header{
     font-size: 4em;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .homeSubTitle{
     margin-left: 0px;
   }
+  .textDiv{
+    padding-left: 0%;
+  }
   .sub {
     text-align: center;
+    height: 15%;
   }
   .sub > h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .sub > h3 {
+    font-size: 1em;
     padding-left: 2%;
     padding-right: 2%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
   }
   .socialBar {
-    padding-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   .contactImage{
-    width: 70vw;
-    height: 50vh;
-    padding-left: 15%;
-    padding-top: 5%
+    width: 60vw;
+    height: 100vh;
+    padding-left: 0%;
+    padding-top: 10%;
+    overflow: hidden;
   }
   .main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    height: 90vh;
+
   }
   .contactTxt > h2{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 2em;
+    padding-bottom: 5%;
   }
   #content > main > div > h2:nth-child(1) {
     padding-top: 5%;
@@ -501,21 +537,32 @@ flex-direction: column;
   .contactTxt > p {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 1.2em;
   }
   .description {
-    width: 200px;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
   }
   .description > h3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 100%;
   }
   .description > h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 100%;
   }
   .flavourDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-top: 5%;
     padding-bottom: 5%;
+    height: 70vh;
+  }
+  .flavourDiv > img {
+    flex-shrink: 3;
+    height: 18%;
+    width: 20%;
   }
 }
