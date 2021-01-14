@@ -247,7 +247,7 @@ flex-direction: column;
   }
   .heroImage > img {
     width: 30vw;
-    min-width: 500px;
+    min-width: 475px;
 }
 .main {
   height: 80vh;
@@ -283,7 +283,7 @@ flex-direction: column;
 }
 .contactImage{
   width: 30vw;
-  min-width: 500px;
+  min-width: 475px;
 }
 .contactTxt {
   padding-left: 5%;
@@ -492,7 +492,7 @@ flex-direction: column;
     width: 40px;
   }
   .header{
-    font-size: 4em;
+    font-size: 3.8em;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-top: 10%;
@@ -529,11 +529,12 @@ flex-direction: column;
     padding-bottom: 2%;
   }
   .contactImage{
-    width: 50vw;
-    height: 100vh;
+    width: 53vw;
+    height: 95vh;
     padding-left: 0%;
     padding-top: 10%;
     overflow: hidden;
+    min-width: 150px;
   }
   .main{
     display: flex;
